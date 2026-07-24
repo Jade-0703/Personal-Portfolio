@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jade's Personal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="main-folder-header" tabindex="0" onclick="window.scrollTo({top:0,behavior:'smooth'});">
+    <span class="folder-icon">📁</span>
+    Jade's Personal Portfolio
+    <span class="header-label">Portfolio</span>
+  </div>
+  <nav class="folder-tabs-header" aria-label="Section Navigation">
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks" type="button">☰</button>
+    <div class="nav-links" id="navLinks">
+      <button class="folder-tab-link" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});" type="button">About</button>
+      <button class="folder-tab-link" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'});" type="button">Skills</button>
+      <button class="folder-tab-link" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});" type="button">Projects</button>
+      <button class="folder-tab-link" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" type="button">Contact</button>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="scrap-title">Jade's Personal Portfolio</h1>
+
+    <div class="profile-box" id="about">
+      <img src="Me.jpeg" alt="Jade's Profile" class="profile-pic">
+      <div class="profile-text">
+        <h3>👋 Hi! I'm Wen Xi (Jade)</h3>
+        <p>I'm a student at Sunway University studying web development and design. I enjoy creating websites and learning new technologies.</p>
+        <p>I like turning ideas into functional websites and apps. I focus on making things that work well and look good.</p>
+        <p>When I'm not studying, I work on personal projects, explore new tech, and collaborate with classmates. Feel free to reach out if you'd like to connect! ✨</p>
+        <a href="#contact" class="btn">Let's Connect <i class="fas fa-paper-plane"></i></a>
+      </div>
+      <div class="sticker">📌</div>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-heart"></i> My Passions</h2>
+      <div class="passions-grid">
+        <div class="passion-card">
+          <div class="passion-icon">🎨</div>
+          <h4>Creative Expression</h4>
+          <p>Finding beauty in everyday moments and expressing ideas through art, design, and innovative thinking.</p>
+        </div>
+        <div class="passion-card">
+          <div class="passion-icon">🔧</div>
+          <h4>Problem Solving</h4>
+          <p>Approaching challenges with curiosity and determination, turning obstacles into opportunities for growth.</p>
+        </div>
+        <div class="passion-card">
+          <div class="passion-icon">📚</div>
+          <h4>Continuous Growth</h4>
+          <p>Embracing new experiences, learning from every interaction, and constantly evolving as a person and professional.</p>
+        </div>
+        <div class="passion-card">
+          <div class="passion-icon">🤝</div>
+          <h4>Building Connections</h4>
+          <p>Creating meaningful relationships, sharing knowledge with others, and growing stronger through collaboration.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" style="margin-bottom: 0.5rem;">
+      <h2><i class="fas fa-graduation-cap"></i> My Learning Journey</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <div class="education-image">
+            <img src="SJK(C)UNION.jpg" alt="SJK(C) UNION" class="school-img">
+          </div>
+          <div class="education-content">
+            <div class="education-year">2012 - 2017</div>
+            <h4 class="school-name">SJK(C) UNION</h4>
+            <p class="school-desc">Where my educational journey began. Built strong foundations in core subjects and discovered my love for learning and creativity.</p>
+            <div class="education-highlights">
+              <span class="highlight-tag">Foundation</span>
+              <span class="highlight-tag">Creativity</span>
+              <span class="highlight-tag">Curiosity</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="education-card">
+          <div class="education-image">
+            <img src="Penang_Chinese_Girls'_High_School.jpg" alt="Penang Chinese Girls' High School" class="school-img">
+          </div>
+          <div class="education-content">
+            <div class="education-year">2018 - 2022</div>
+            <h4 class="school-name">Penang Chinese Girls' High School</h4>
+            <p class="school-desc">Where my love for problem-solving and teamwork first took root. Built a rock-solid foundation that taught me the value of persistence and collaboration.</p>
+            <div class="education-highlights">
+              <span class="highlight-tag">Leadership</span>
+              <span class="highlight-tag">Problem Solving</span>
+              <span class="highlight-tag">Teamwork</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="education-card">
+          <div class="education-image">
+            <img src="sunway-college-campus.jpg" alt="Sunway College" class="school-img">
+          </div>
+          <div class="education-content">
+            <div class="education-year">2023 - 2024</div>
+            <h4 class="school-name">Sunway College</h4>
+            <p class="degree-info">Foundation in Science and Technology (FIST)</p>
+            <p class="school-desc">Prepared for university life with advanced studies and specialized subjects. Developed critical thinking skills and academic independence.</p>
+            <div class="education-highlights">
+              <span class="highlight-tag">Critical Thinking</span>
+              <span class="highlight-tag">Academic Skills</span>
+              <span class="highlight-tag">Independence</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="education-card current">
+          <div class="education-image">
+            <img src="SUN-U.jpg" alt="Sunway University" class="school-img">
+          </div>
+          <div class="education-content">
+            <div class="education-year">2024 - Present</div>
+            <h4 class="school-name">Sunway University</h4>
+            <p class="degree-info">BSc (Hons) Information Technology</p>
+            <p class="school-desc">Currently diving deep into the digital realm, mastering web development, database systems, and UI/UX design. Every project is a chance to blend creativity with technical precision.</p>
+            <div class="education-highlights">
+              <span class="highlight-tag">Web Development</span>
+              <span class="highlight-tag">Database Systems</span>
+              <span class="highlight-tag">UI/UX Design</span>
+              <span class="highlight-tag current-tag">In Progress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="skills">
+      <h2><i class="fas fa-code"></i> My Skills</h2>
+      <p class="skills-intro">I believe in mastering the fundamentals while pushing creative boundaries. Here's my toolkit for crafting exceptional digital experiences:</p>
+      <div class="skills-showcase">
+        <div class="skill-note skill-html">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <div class="skill-title">HTML & CSS</div>
+          <div class="skill-desc">Crafting pixel-perfect layouts and breathing life into designs with creative styling magic.</div>
+          <span class="skill-badge">Expert</span>
+        </div>
+        <div class="skill-note skill-js">
+          <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+          <div class="skill-title">JavaScript</div>
+          <div class="skill-desc">Turning static pages into dynamic, interactive experiences that users love to engage with.</div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+        <div class="skill-note skill-ux">
+          <div class="skill-icon"><i class="fas fa-pencil-ruler"></i></div>
+          <div class="skill-title">UI/UX Design</div>
+          <div class="skill-desc">Creating intuitive, beautiful interfaces that make users feel like digital wizards.</div>
+          <span class="skill-badge">Advanced</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="projects" style="background: #f5e7c2;">
+      <h2><i class="fas fa-laptop-code"></i> My Creative Portfolio</h2>
+      <div class="projects-slider-wrapper">
+        <button class="projects-arrow projects-arrow-left" aria-label="Scroll left">&#171;</button>
+        <div class="projects-slider-row" id="projectsSliderRow">
+          <div class="moody-card project-card">
+            <div class="moody-img sabah-img"></div>
+            <div class="moody-overlay">
+              <h3 class="moody-title">HopNTrip</h3>
+              <p class="moody-desc">A dynamic travel agency website that allows users to explore destinations, book curated trips, and access travel guides. Features include interactive maps, real-time booking, and personalized recommendations for adventurers.</p>
+            </div>
+            <div class="project-links-row">
+              <a href="https://6886907549cd86741f050bb7--jolly-beignet-b9e3de.netlify.app" target="_blank" rel="noopener noreferrer" class="moody-btn">Live Demo</a>
+              <a href="HopNTrip Report PDF.pdf" target="_blank" rel="noopener noreferrer" class="moody-btn">PDF</a>
+            </div>
+          </div>
+          <div class="moody-card project-card">
+            <div class="moody-img inventory-img"></div>
+            <div class="moody-overlay">
+              <h3 class="moody-title">Inventory Management System</h3>
+              <p class="moody-desc">A robust web application for tracking, managing, and organizing inventory in real time. Features include stock monitoring, low-stock alerts, reporting, and user-friendly dashboards for efficient business operations.</p>
+            </div>
+            <div class="project-links-row">
+              <a href="https://youtu.be/tXFvey_J4oY?si=7wuxbGi5zTQZ-3W6" target="_blank" rel="noopener noreferrer" class="moody-btn">Live Demo</a>
+              <a href="Code Assignment.pdf" target="_blank" rel="noopener noreferrer" class="moody-btn">PDF</a>
+            </div>
+          </div>
+          <div class="moody-card project-card">
+            <div class="moody-img fitblix-img"></div>
+            <div class="moody-overlay">
+              <h3 class="moody-title">Fitblix</h3>
+              <p class="moody-desc">A fitness tracking app designed to help users monitor workouts, set goals, and receive personalized exercise plans. Fitblix features progress charts, motivational badges, a clean user-friendly interface, and social sharing to keep users engaged and inspired on their health journey.</p>
+            </div>
+            <div class="project-links-row">
+              <a href="https://drive.google.com/file/d/1op9Za-V8vZudHn0LCvvcSmRjgh95IYO7/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="moody-btn">Live Demo</a>
+              <a href="FitblixNew.pdf" target="_blank" rel="noopener noreferrer" class="moody-btn">PDF</a>
+            </div>
+          </div>
+        </div>
+        <button class="projects-arrow projects-arrow-right" aria-label="Scroll right">&#187;</button>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2><i class="fas fa-paper-plane"></i> Let's Build Something Amazing Together!</h2>
+      <div class="contact-flex">
+        <div class="contact-info">
+          <ul>
+            <li><i class="fas fa-user"></i> Name: Tan Wen Xi (Jade)</li>
+            <li><i class="fas fa-envelope"></i> Email: 23093495@imail.sunway.edu.my</li>
+            <li><i class="fas fa-phone"></i> Phone: +60 12 804 5277</li>
+            <li><i class="fas fa-map-marker-alt"></i> Location: Selangor, Malaysia</li>
+            <li><i class="fas fa-graduation-cap"></i> Education: BSc Information Technology</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://wa.me/60128045277" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/wenxi_0703" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/people/Tan-Wen-Xi/pfbid02WzLVXZPVTsAGCJ1RQ8Fxsb4s3Rra2GCVJYMH13fME5CAMSKJwyZaEF6yi2skReoNl/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <span class="form-sticker">💌</span>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <div class="error" id="nameError">Please enter your name</div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+              <div class="error" id="emailError">Please enter a valid email</div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+              <div class="error" id="subjectError">Please enter a subject</div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <div class="error" id="messageError">Please enter your message</div>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+  <script src="script.js"></script>
