@@ -42,7 +42,7 @@ My portfolio showcases three major projects spanning web development, system man
 ## 📂 Project Structure
 
 ```bash
-TanWenXi_Portfolio/
+Personal_Portfolio/
 │
 ├── index.html                           # Main portfolio homepage structure
 ├── style.css                            # Custom vanilla CSS animations, layout & styling
@@ -65,10 +65,10 @@ TanWenXi_Portfolio/
 To preview the portfolio on your local machine:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Jade-0703/TanWenXi_Portfolio.git
+   git clone https://github.com/Jade-0703/Personal_Portfolio.git
    ```
 2. Navigate into the project folder:
    ```bash
-   cd TanWenXi_Portfolio
+   cd Personal_Portfolio
    ```
 3. Open `index.html` in any web browser.
