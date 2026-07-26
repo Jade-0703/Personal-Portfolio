@@ -1,5 +1,7 @@
 # Jade's Personal Portfolio 🎨✨
 
+**🔗 Live Website:** [https://super-tarsier-9a937e.netlify.app](https://super-tarsier-9a937e.netlify.app)
+
 Welcome to my personal portfolio repository! I am **Wen Xi (Jade)**, an Information Technology student at Sunway University. This repository contains the source code for my portfolio website, showcasing my learning journey, skills, and creative projects.
 
 ---
